@@ -1,0 +1,51 @@
+nav {
+    background-color: #0057b8; /* Blue background */
+    margin-top: -1px;
+    padding: 10px 0;
+  }
+
+  /* Container to align links horizontally */
+  .container {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  /* Links styles */
+  .tab-hover {
+    color: white;               /* White text */
+    margin-right: 20px;         /* Space between links */
+    text-decoration: none;      /* No underline */
+    padding: 6px 15px;          /* Padding for oval shape */
+    border-radius: 30px;        /* Oval shape */
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    font-weight: 500;
+  }
+
+  /* Remove margin after last link */
+  .tab-hover:last-child {
+    margin-right: 0;
+  }
+
+  
+  .tab-hover:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* White transparent */
+    cursor: pointer;
+    text-decoration: none;      /* Just in case */
+  }
+  .hero-section {
+      background-color: #0057b8;
+      color: white;
+      padding: 60px 0 40px;
+    }
+    .form-section {
+      background-color: #0057b8;
+      padding: 20px;
+      margin-top: -30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .form-control, .input-group-text {
+      border-radius: 0;
+    }
