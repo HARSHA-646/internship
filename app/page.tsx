@@ -10,9 +10,7 @@ export default function Home() {
           <a className="navbar-brand fw-bold" style={{ color: "white" }} href="#">
             GANAPATHI TRAVELS
           </a>
-          <h3>
-            Lets go for a <FaBeer />?
-          </h3>n
+    
           <div className="ms-auto d-flex align-items-center">
             <a href="#" className="text-white me-3 text-decoration-none p-2">
               🌐 English (US)
