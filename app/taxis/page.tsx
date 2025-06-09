@@ -54,10 +54,14 @@ export default function TaxiPage() {
   return (
     <>
  
-      <div className="bg-light py-5">
+      <div className="bg-light py-5 ">
         <div className="container text-center">
-          <h2 className="fw-bold">Book your airport taxi</h2>
+          <div className='mt -10' style={{backgroundColor:"#0057b8"}} >
+          <h2 className="fw-bold ">Book your airport taxi</h2>
           <p className="text-muted">Easy airport transfers to and from your accommodation</p>
+
+          </div>
+          
 
           <Form className="d-flex flex-wrap justify-content-center align-items-center border border-warning rounded p-3 mt-4 bg-white gap-2">
             <FormGroup check inline>
